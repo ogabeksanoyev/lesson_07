@@ -3,14 +3,14 @@ import React from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
 
-const Containerr = (props) => {
+const Container = (props) => {
     return (
         <div>
             <Header/>
-             {props.children}
+             <div className="content">{props.children}</div>
             <Footer/>
         </div>
     )
 }
 
-export default Containerr
+export default Container
